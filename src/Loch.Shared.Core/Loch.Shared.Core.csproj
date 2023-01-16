@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Version>1.0.3</Version>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageVersion>1.0.9</PackageVersion>
+		<PackageIcon>loch.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="../../stylecop.json" />
+		<None Update="Loch_logo.jpg">
+		  <Pack>True</Pack>
+		  <PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<AdditionalFiles Include="../../stylecop.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\loch.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentValidation" Version="11.0.3" />
+		<PackageReference Include="MediatR" Version="10.0.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
+		<PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Loch.Shared\Loch.Shared.csproj" />
+	</ItemGroup>
+
+</Project>

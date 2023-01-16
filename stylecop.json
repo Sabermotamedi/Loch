@@ -1,0 +1,18 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+  "settings": {
+    "orderingRules": {
+      "usingDirectivesPlacement": "outsideNamespace"
+    },
+    "documentationRules": {
+      "companyName": "Loch",
+      "copyrightText": "Copyright (c) {companyName}. All rights reserved.  Developed with 🖤 in development department.",
+      "headerDecoration": "-----------------------------------------------------------------------"
+    },
+
+    "namingRules": {
+      "includeInferredTupleElementNames": true,
+      "tupleElementNameCasing": "camelCase"
+    }
+  }
+}

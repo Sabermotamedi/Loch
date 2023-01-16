@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2F7F729E-AC57-490B-94BE-BF0BFDBA97D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C2467C09-DE51-4218-8314-877A50971FF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{567E507A-CA23-4FAB-970C-E2585E190638}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loch.Shared", "src\Loch.Shared\Loch.Shared.csproj", "{A9FEA883-CEC3-4DED-B30C-294A6A836B0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loch.Shared.Core", "src\Loch.Shared.Core\Loch.Shared.Core.csproj", "{AD63F140-36FA-4C3E-8AAC-39E66C4433C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loch.Shared.EF", "src\Loch.Shared.EF\Loch.Shared.EF.csproj", "{6E09F966-1D26-4072-9DE7-199D985305E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loch.Shared.Web.API", "src\Loch.Shared.Web.API\Loch.Shared.Web.API.csproj", "{81027E6D-20D9-4342-839F-A58CFE8912DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loch.Shared.Web.API.Security", "src\Loch.Shared.Web.API.Security\Loch.Shared.Web.API.Security.csproj", "{2A4AFBB6-5F16-4F12-BA9A-B19233BA55AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loch.Shared.UnitTests", "test\Loch.Shared.UnitTests\Loch.Shared.UnitTests.csproj", "{6DF13882-5D4D-436F-ABEA-F4A8A6CDE99E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loch.Shared.Logging", "src\Loch.Shared.Logging\Loch.Shared.Logging.csproj", "{66285E90-2130-4F3B-A767-864AB71B5215}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loch.Shared.Infrastructure", "src\Loch.Shared.Infrastructure\Loch.Shared.Infrastructure.csproj", "{37724D3B-3092-4C79-87DC-4CFD08341480}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loch.Shared.Application", "src\Loch.Shared.Application\Loch.Shared.Application.csproj", "{508BD6BB-0CF5-4A13-8D44-004086366AD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loch.Shared.Cashing", "src\Loch.Shared.Cashing\Loch.Shared.Cashing.csproj", "{D0BD7E5D-2A3D-47A5-A09C-A784352CD901}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9FEA883-CEC3-4DED-B30C-294A6A836B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9FEA883-CEC3-4DED-B30C-294A6A836B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9FEA883-CEC3-4DED-B30C-294A6A836B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9FEA883-CEC3-4DED-B30C-294A6A836B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD63F140-36FA-4C3E-8AAC-39E66C4433C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD63F140-36FA-4C3E-8AAC-39E66C4433C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD63F140-36FA-4C3E-8AAC-39E66C4433C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD63F140-36FA-4C3E-8AAC-39E66C4433C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E09F966-1D26-4072-9DE7-199D985305E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E09F966-1D26-4072-9DE7-199D985305E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E09F966-1D26-4072-9DE7-199D985305E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E09F966-1D26-4072-9DE7-199D985305E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81027E6D-20D9-4342-839F-A58CFE8912DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81027E6D-20D9-4342-839F-A58CFE8912DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81027E6D-20D9-4342-839F-A58CFE8912DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81027E6D-20D9-4342-839F-A58CFE8912DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A4AFBB6-5F16-4F12-BA9A-B19233BA55AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4AFBB6-5F16-4F12-BA9A-B19233BA55AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4AFBB6-5F16-4F12-BA9A-B19233BA55AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4AFBB6-5F16-4F12-BA9A-B19233BA55AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF13882-5D4D-436F-ABEA-F4A8A6CDE99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF13882-5D4D-436F-ABEA-F4A8A6CDE99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF13882-5D4D-436F-ABEA-F4A8A6CDE99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF13882-5D4D-436F-ABEA-F4A8A6CDE99E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66285E90-2130-4F3B-A767-864AB71B5215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66285E90-2130-4F3B-A767-864AB71B5215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66285E90-2130-4F3B-A767-864AB71B5215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66285E90-2130-4F3B-A767-864AB71B5215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37724D3B-3092-4C79-87DC-4CFD08341480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37724D3B-3092-4C79-87DC-4CFD08341480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37724D3B-3092-4C79-87DC-4CFD08341480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37724D3B-3092-4C79-87DC-4CFD08341480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508BD6BB-0CF5-4A13-8D44-004086366AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508BD6BB-0CF5-4A13-8D44-004086366AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508BD6BB-0CF5-4A13-8D44-004086366AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508BD6BB-0CF5-4A13-8D44-004086366AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0BD7E5D-2A3D-47A5-A09C-A784352CD901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BD7E5D-2A3D-47A5-A09C-A784352CD901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BD7E5D-2A3D-47A5-A09C-A784352CD901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BD7E5D-2A3D-47A5-A09C-A784352CD901}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9FEA883-CEC3-4DED-B30C-294A6A836B0D} = {2F7F729E-AC57-490B-94BE-BF0BFDBA97D9}
+		{AD63F140-36FA-4C3E-8AAC-39E66C4433C6} = {2F7F729E-AC57-490B-94BE-BF0BFDBA97D9}
+		{6E09F966-1D26-4072-9DE7-199D985305E6} = {2F7F729E-AC57-490B-94BE-BF0BFDBA97D9}
+		{81027E6D-20D9-4342-839F-A58CFE8912DE} = {2F7F729E-AC57-490B-94BE-BF0BFDBA97D9}
+		{2A4AFBB6-5F16-4F12-BA9A-B19233BA55AE} = {2F7F729E-AC57-490B-94BE-BF0BFDBA97D9}
+		{6DF13882-5D4D-436F-ABEA-F4A8A6CDE99E} = {C2467C09-DE51-4218-8314-877A50971FF4}
+		{66285E90-2130-4F3B-A767-864AB71B5215} = {2F7F729E-AC57-490B-94BE-BF0BFDBA97D9}
+		{37724D3B-3092-4C79-87DC-4CFD08341480} = {2F7F729E-AC57-490B-94BE-BF0BFDBA97D9}
+		{508BD6BB-0CF5-4A13-8D44-004086366AD0} = {2F7F729E-AC57-490B-94BE-BF0BFDBA97D9}
+		{D0BD7E5D-2A3D-47A5-A09C-A784352CD901} = {2F7F729E-AC57-490B-94BE-BF0BFDBA97D9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {866BAA69-3F6C-490A-A3F1-B44CDE4DF306}
+	EndGlobalSection
+EndGlobal
