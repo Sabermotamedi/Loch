@@ -1,10 +1,4 @@
-﻿// -----------------------------------------------------------------------
-// <copyright file="ErrorType.cs" company="Loch">
-// Copyright (c) Loch. All rights reserved.  Developed with 🖤 in development department.
-// </copyright>
-// -----------------------------------------------------------------------
-
-using Loch.Shared.Types;
+﻿using Loch.Shared.Types;
 
 namespace Loch.Shared.Core.Application
 {

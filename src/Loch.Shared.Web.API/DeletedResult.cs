@@ -1,9 +1,3 @@
-// -----------------------------------------------------------------------
-// <copyright file="DeletedResult.cs" company="Loch">
-// Copyright (c) Loch. All rights reserved.  Developed with 🖤 in development department.
-// </copyright>
-// -----------------------------------------------------------------------
-
 using Loch.Shared.Core.Application;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

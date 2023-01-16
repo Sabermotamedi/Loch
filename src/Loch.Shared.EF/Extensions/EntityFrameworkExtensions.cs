@@ -1,9 +1,3 @@
-// -----------------------------------------------------------------------
-// <copyright file="EntityFrameworkExtensions.cs" company="Loch">
-// Copyright (c) Loch. All rights reserved.  Developed with 🖤 in development department.
-// </copyright>
-// -----------------------------------------------------------------------
-
 using System;
 using System.Collections.Generic;
 using System.Linq;

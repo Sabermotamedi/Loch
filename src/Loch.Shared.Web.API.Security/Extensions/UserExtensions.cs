@@ -1,10 +1,4 @@
-﻿// -----------------------------------------------------------------------
-// <copyright file="UserExtensions.cs" company="Loch">
-// Copyright (c) Loch. All rights reserved.  Developed with 🖤 in development department.
-// </copyright>
-// -----------------------------------------------------------------------
-
-using Loch.Shared.Models;
+﻿using Loch.Shared.Models;
 using Loch.Shared.Web.API.Security.Middlewares.Dapper;
 using Loch.Shared.Web.API.Security.Models;
 using Loch.Shared.Web.API.Security.Utilities;

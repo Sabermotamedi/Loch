@@ -1,11 +1,4 @@
-﻿// -----------------------------------------------------------------------
-// <copyright file="DateTimeExtensionsTests.cs" company="Loch">
-// Copyright (c) Loch. All rights reserved.  Developed with 🖤 in development department.
-// </copyright>
-// -----------------------------------------------------------------------
-
-
-namespace Loch.Shared.Extensions
+﻿namespace Loch.Shared.Extensions
 {
     public class DateTimeExtensionsTests
     {

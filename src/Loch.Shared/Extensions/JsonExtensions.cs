@@ -1,10 +1,4 @@
-﻿// -----------------------------------------------------------------------
-// <copyright file="JsonExtensions.cs" company="Loch">
-// Copyright (c) Loch. All rights reserved.  Developed with 🖤 in development department.
-// </copyright>
-// -----------------------------------------------------------------------
-
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
 namespace Loch.Shared.Extensions

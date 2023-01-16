@@ -1,9 +1,3 @@
-// -----------------------------------------------------------------------
-// <copyright file="PagedResultBase.cs" company="Loch">
-// Copyright (c) Loch. All rights reserved.  Developed with 🖤 in development department.
-// </copyright>
-// -----------------------------------------------------------------------
-
 using System;
 
 namespace Loch.Shared.Pagination

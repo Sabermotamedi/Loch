@@ -1,9 +1,3 @@
-// -----------------------------------------------------------------------
-// <copyright file="ExceptionMiddleware.cs" company="Loch">
-// Copyright (c) Loch. All rights reserved.  Developed with 🖤 in development department.
-// </copyright>
-// -----------------------------------------------------------------------
-
 using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;

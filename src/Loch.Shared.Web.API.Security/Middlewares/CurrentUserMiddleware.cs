@@ -1,9 +1,3 @@
-// -----------------------------------------------------------------------
-// <copyright file="CurrentUserMiddleware.cs" company="Loch">
-// Copyright (c) Loch. All rights reserved.  Developed with 🖤 in development department.
-// </copyright>
-// -----------------------------------------------------------------------
-
 using Microsoft.AspNetCore.Http;
 using Microsoft.Net.Http.Headers;
 using Loch.Shared.Web.API.Security.Extensions;

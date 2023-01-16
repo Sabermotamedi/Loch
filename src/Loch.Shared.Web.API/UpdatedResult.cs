@@ -1,9 +1,3 @@
-// -----------------------------------------------------------------------
-// <copyright file="UpdatedResult.cs" company="Loch">
-// Copyright (c) Loch. All rights reserved.  Developed with 🖤 in development department.
-// </copyright>
-// -----------------------------------------------------------------------
-
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Loch.Shared.Core.Application;

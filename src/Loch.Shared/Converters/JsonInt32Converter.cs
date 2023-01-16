@@ -1,9 +1,3 @@
-// -----------------------------------------------------------------------
-// <copyright file="JsonInt32Converter.cs" company="Loch">
-// Copyright (c) Loch. All rights reserved.  Developed with 🖤 in development department.
-// </copyright>
-// -----------------------------------------------------------------------
-
 using System.Text.Json;
 
 namespace Loch.Shared.Converters

@@ -1,9 +1,3 @@
-// -----------------------------------------------------------------------
-// <copyright file="Error.cs" company="Loch">
-// Copyright (c) Loch. All rights reserved.  Developed with 🖤 in development department.
-// </copyright>
-// -----------------------------------------------------------------------
-
 using System;
 using Loch.Shared.Core.Application;
 

@@ -1,9 +1,3 @@
-// -----------------------------------------------------------------------
-// <copyright file="UserInfoAttribute.cs" company="Loch">
-// Copyright (c) Loch. All rights reserved.  Developed with 🖤 in development department.
-// </copyright>
-// -----------------------------------------------------------------------
-
 using Loch.Shared.Models;
 using Loch.Shared.Web.API.Security.Extensions;
 using Microsoft.AspNetCore.Mvc.Filters;

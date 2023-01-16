@@ -1,10 +1,4 @@
-﻿// -----------------------------------------------------------------------
-// <copyright file="CustomValidators.cs" company="Loch">
-// Copyright (c) Loch. All rights reserved.  Developed with 🖤 in development department.
-// </copyright>
-// -----------------------------------------------------------------------
-
-using FluentValidation;
+﻿using FluentValidation;
 using Loch.Shared.Extensions;
 
 namespace Loch.Shared.Core

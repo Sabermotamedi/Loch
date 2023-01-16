@@ -1,9 +1,3 @@
-// -----------------------------------------------------------------------
-// <copyright file="FailFastRequestBehavior.cs" company="Loch">
-// Copyright (c) Loch. All rights reserved.  Developed with 🖤 in development department.
-// </copyright>
-// -----------------------------------------------------------------------
-
 using Loch.Shared.Core.Application;
 using Loch.Shared.Core.Domain;
 using FluentValidation;
